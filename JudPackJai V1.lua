@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Boomx
 local Window = Library.CreateLib("Nc Hub X Reunion TEam", colors)
 
 local colors = {
-    SchemeColor = Color3.fromRGB(0,255,255),
+    SchemeColor = Color3.fromRGB(0,255,0),
     Background = Color3.fromRGB(0, 0, 0),
     Header = Color3.fromRGB(0, 0, 0),
     TextColor = Color3.fromRGB(255,255,255),
