@@ -6,7 +6,7 @@ local colors = {
     Background = Color3.fromRGB(0, 0, 0),
     Header = Color3.fromRGB(0, 0, 0),
     TextColor = Color3.fromRGB(255,255,255),
-    ElementColor = Color3.fromRGB(20, 20, 20)
+    ElementColor = Color3.fromRGB(255, 20, 20)
 }
 
 local Tab1 = Window:NewTab("General")
