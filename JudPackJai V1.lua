@@ -37,14 +37,14 @@ Section5:NewTextBox("Money", "Give Money", function(mg)
 	game:GetService("Players").sasdzax44.leaderstats.Baht.Value = mg
 end)
 
-Section2:NewSlider("Speed Option", "Select Speed", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+Section2:NewSlider("Speed Option", "Select Speed", 500, 0, function(s)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 Section2:NewButton("Reset Speed", "Reset Speed", function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
 end)
 
-Section4:NewSlider("Jump Option", "Select JumpPower", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)      
+Section4:NewSlider("Jump Option", "Select JumpPower", 500, 0, function(s)     
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s  
 end)
 Section4:NewButton("Reset Speed", "Reset JumpPower", function()
