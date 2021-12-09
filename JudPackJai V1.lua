@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Boomxs/NcHub/main/Main"))()
-local Window = Library.CreateLib("Nc Hub X Reunion TEam", LightTheme)
+local Window = Library.CreateLib("Nc Hub X Reunion TEam", "LightTheme")
 
 local Tab1 = Window:NewTab("General")
 local Tab2 = Window:NewTab("Teleport")
