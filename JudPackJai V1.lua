@@ -1,13 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Boomxs/NcHub/main/Main"))()
-local Window = Library.CreateLib("Nc Hub X Reunion TEam", colors)
-
-local colors = {
-    SchemeColor = Color3.fromRGB(0,255,0),
-    Background = Color3.fromRGB(0, 0, 0),
-    Header = Color3.fromRGB(0, 0, 0),
-    TextColor = Color3.fromRGB(255,255,255),
-    ElementColor = Color3.fromRGB(255, 20, 20)
-}
+local Window = Library.CreateLib("Nc Hub X Reunion TEam", LightTheme)
 
 local Tab1 = Window:NewTab("General")
 local Tab2 = Window:NewTab("Teleport")
